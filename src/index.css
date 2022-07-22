@@ -7,6 +7,10 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+html {
+  background-color: aliceblue;
+}
+
 .flex {
   display: flex;
 }
@@ -24,3 +28,8 @@
 .pd-b-3 {
   padding-bottom: 20px;  
 }
+
+.mr-l-1 {
+  margin-left: 1rem;
+}
+

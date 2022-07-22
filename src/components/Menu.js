@@ -19,7 +19,7 @@ export default function Main() {
   return (
     <Section>
         <SectionContainer className='pd-t-3 pd-b-3'>
-            <div className="flex justify-space-between">
+            <div className="flex justify-space-between center">
             <AppName>
                 SocialO
             </AppName>
@@ -29,10 +29,11 @@ export default function Main() {
                 </Icon>
                 <input type="text" name="search" id="" placeholder='Search for Post' />
             </SearchBar>
-            <IconList>
+            <IconList className='mr-l-1'>
                 <Icon>
                     <TbSquarePlus/>
                 </Icon>
+                    
                 <Icon>
                     <BsCameraVideo/>
                 </Icon>

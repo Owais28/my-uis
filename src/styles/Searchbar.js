@@ -1,15 +1,16 @@
 import styled from "styled-components";
 
 export const SearchBar = styled.div`
-    padding : 9px 12px;
-    background-color: whitesmoke;
+    padding : 0px 5px;
+    background-color: aliceblue;
     border-radius : 100px;
     display : flex;
     flex : .5;
     svg {
         margin-right : 10px;
-        font-size : 1.2rem;
+        font-size : 1rem;
         // height : 100%;
+        display : block;
     }
     align-items : center;
     input {
@@ -17,5 +18,6 @@ export const SearchBar = styled.div`
         border: none;
         outline : none;
         width : 100%;
+        font-size : 1rem;
     }
 `
