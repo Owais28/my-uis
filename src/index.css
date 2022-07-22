@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
+  transition: all .3s ease-in;
 }
 
 html {
@@ -33,3 +34,8 @@ html {
   margin-left: 1rem;
 }
 
+
+/* backgrounds */
+.bg-white {
+  background-color: white;
+}

@@ -1,0 +1,27 @@
+.stories__container {
+    padding: 20px;
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    margin: 10px;
+    overflow: auto;
+}
+
+.stories__story {
+    margin-left: 8px;
+    margin-right: 8px;
+    width: 80px;
+}
+
+.stories__story-img  {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.stories__story-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

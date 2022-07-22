@@ -20,4 +20,9 @@ export const SearchBar = styled.div`
         width : 100%;
         font-size : 1rem;
     }
+
+
+    @media screen and (max-width:414px) {
+        display : none;
+    }
 `

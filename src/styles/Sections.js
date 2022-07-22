@@ -4,7 +4,7 @@ export const Section = styled.div`
     width : 100%;
     padding-right : 30px;
     padding-left : 30px;
-    background-color : white;
+    // background-color : white;
 
 `
 

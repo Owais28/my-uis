@@ -17,19 +17,21 @@ export const Icon = styled.div`
     flex-direction : column;
     // display : block;
     font-size : 1rem;
-    padding : 4px;
+    // padding : 4px;
      svg {
         display : block;
         margin : auto;
-        font-size : 1rem;
+        font-size : 1.1rem;
      }
 `
 
 export const ProfileAvator = styled(Icon)`
-    padding : 0px;
+    padding : 0px !important;
     width : 45px;
     height : 45px;
     img {
         width : 100%;
+        height : 100%;
+        object-fit : cover;
     }
 `
