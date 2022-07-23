@@ -9,7 +9,8 @@ export const Section = styled.div`
 `
 
 export const SectionContainer = styled.div`
-max-width : 1300px;
+max-width : 1200px;
 margin-right : auto;
 margin-left : auto;
+over-flow : hidden;
 `

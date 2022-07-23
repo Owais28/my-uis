@@ -5,17 +5,17 @@ import StorySection from './Stories'
 
 export default function Main() {
   return (
-    <Section>
+    <Section className='pd-t-3 pd-b-3'>
         <SectionContainer>
             <MainGrid>
                 <div>
                     <StorySection/>
                 </div>
                 <div>
-                {/* <Stories/> */}
+                <StorySection/>
                 </div>
                 <div>
-                {/* <Stories/> */}
+                <StorySection/>
                 </div>
             </MainGrid>
         </SectionContainer>
