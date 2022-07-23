@@ -11,7 +11,9 @@
 html {
   background-color: aliceblue;
 }
-
+body {
+  overflow: hidden;
+}
 .flex {
   display: flex;
 }

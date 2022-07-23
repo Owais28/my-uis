@@ -1,7 +1,7 @@
 import React from 'react'
 import { MainGrid } from '../styles/Grids'
 import { Section, SectionContainer } from '../styles/Sections'
-import Stories from './Stories'
+import StorySection from './Stories'
 
 export default function Main() {
   return (
@@ -9,13 +9,13 @@ export default function Main() {
         <SectionContainer>
             <MainGrid>
                 <div>
-                    <Stories/>
+                    <StorySection/>
                 </div>
                 <div>
-                <Stories/>
+                {/* <Stories/> */}
                 </div>
                 <div>
-                <Stories/>
+                {/* <Stories/> */}
                 </div>
             </MainGrid>
         </SectionContainer>
