@@ -7,6 +7,7 @@ export const PostWrapper = styled.div`
     border-radius : 10px;
     width : 100%;
     max-width : 100%;
+
 `
 
 export const PostHeader = styled.div`
