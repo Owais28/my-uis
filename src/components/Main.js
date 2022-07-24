@@ -8,18 +8,18 @@ export default function Main() {
   return (
     <Section className='pd-t-3 pd-b-3'>
         <SectionContainer>
-            <MainGrid>
-                <div>
+            {/* <MainGrid> */}
+                {/* <div> */}
                     {/* <StorySection/> */}
-                </div>
+                {/* </div> */}
                 <div>
                 <StorySection/>
                 <Feed/>
                 </div>
-                <div>
+                {/* <div> */}
                 {/* <StorySection/> */}
-                </div>
-            </MainGrid>
+                {/* </div> */}
+            {/* </MainGrid> */}
         </SectionContainer>
     </Section>
   )
