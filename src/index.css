@@ -51,6 +51,14 @@ body {
   padding-bottom: 20px;  
 }
 
+.pd-t-2 {
+  padding-top: 15px;  
+}
+
+.pd-b-2 {
+  padding-bottom: 15px;  
+}
+
 .mr-t-3 {
   margin-top: 20px;  
 }

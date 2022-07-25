@@ -17,7 +17,7 @@ import {BsCameraVideo} from 'react-icons/bs'
 export default function Menu() {
   return (
     <Section className='bg-white'>
-        <SectionContainer className='pd-t-3 pd-b-3'>
+        <SectionContainer className='pd-t-2 pd-b-2'>
             <div className="flex justify-space-between center">
             <AppName>
                 SocialO
