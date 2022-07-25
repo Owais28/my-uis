@@ -12,11 +12,9 @@ import "../styles/message.css";
 import "swiper/css";
 // import  '../styles/notification.css'
 
-
 import Message from "./Message";
 
-
-import profile from '../images/profile.jpeg'
+import profile from "../images/profile.jpeg";
 
 export default function MessageSection() {
   const pagination = {
@@ -95,13 +93,13 @@ export default function MessageSection() {
         <div class="swiper-wrapper">
           {/* <!-- Slides --> */}
           <div class="swiper-slide" id="message__primary">
-            <Message/>
-            <Message/>
-            <Message/>
-            <Message/>
-            <Message/>
-            <Message/>
-            <Message/>
+            <Message />
+            <Message />
+            <Message />
+            <Message />
+            <Message />
+            <Message />
+            <Message />
           </div>
           <div class="swiper-slide" id="message__secondary"></div>
           <div class="swiper-slide" id="message__request"></div>

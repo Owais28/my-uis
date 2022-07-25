@@ -6,7 +6,7 @@ export const MainGrid = styled.div`
     grid-gap : 1rem;
     overflow : hidden;
     width : 100%;
-    justify-content : space-between;
+    // justify-content : space-between;
 
     @media screen and (max-width : 414px){
         grid-template-columns  : 1fr;

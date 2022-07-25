@@ -7,7 +7,7 @@
     overflow: auto;
     width: 100%;
     position: sticky;
-    top : 10px;
+    top : 0px;
 }
 
 .stories__container::-webkit-scrollbar {

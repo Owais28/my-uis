@@ -5,6 +5,7 @@ import Feed from "./Feed";
 import MessageSection from "./MessageSection";
 import Notification from "./Notification";
 import StorySection from "./Stories";
+import Suggested from "./Suggested";
 
 export default function Main() {
   return (
@@ -22,6 +23,7 @@ export default function Main() {
           <div>
             {/* <StorySection/> */}
             <MessageSection/>
+            <Suggested/>
           </div>
         </MainGrid>
       </SectionContainer>
