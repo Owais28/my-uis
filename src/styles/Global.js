@@ -24,6 +24,7 @@ max-height : 450px;
         position : sticky;
         top : 0;
         background-color : white;
+        z-index : 1000;
     }
 
     .commonWrapper__title {
@@ -65,6 +66,25 @@ max-height : 450px;
     .notification__icon {
        color : blueviolet;
        background-color : rgb(246, 239, 252); 
+    }
+
+    .commonWrapper__icon {
+        border-radius : 100px;
+    // background-color : aliceblue;
+    width : 45px;
+    height : 45px;
+    overflow : hidden;
+    display : flex;
+    flex-direction : column;
+    // display : block;
+    font-size : 1rem;
+    // padding : 4px;
+     svg {
+        display : block;
+        margin : auto;
+        font-size : 1.1rem;
+        font-weight : 700;
+     };    
     }
 
 `

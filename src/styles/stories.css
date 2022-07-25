@@ -46,8 +46,8 @@
     position: relative;
     /* padding: 10px; */
     border-radius: 100px;
-    width: 93px;
-    height: 93px;
+    width: 80px;
+    height: 80px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -59,8 +59,8 @@
     position: relative;
     /* padding: 10px; */
     border-radius: 100px;
-    width: 87px;
-    height: 87px;
+    width: 75px;
+    height: 75px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -71,8 +71,8 @@
 }
 
 .stories__story-img  {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     border-radius: 100px;
     overflow: hidden;
     /* border: 4px solid white; */
@@ -86,19 +86,20 @@
 
 .stories__story-username {
     margin-top: 8px;
+    font-size: .9rem;;
 }
 
 .stories__addStory-button {
     position: absolute;
-    bottom: 0px;
-    right: -1px;
+    bottom: -2px;
+    right: -4px;
     z-index: 200;
     background-color: white;
     color: blueviolet;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     border-radius: 100px;
-    width: 1.4rem;
-    height: 1.4rem;
+    width: 1.3rem;
+    height: 1.3rem;
     display: flex;
     justify-content: center;
     align-items: center;

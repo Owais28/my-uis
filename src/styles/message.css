@@ -1,0 +1,50 @@
+.messages__search {
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-size: .9rem !important; 
+    position: sticky;
+    top : 0;
+}
+
+.messages__search input {
+    font-size: .8rem !important;
+}
+
+.messages__search-icon {
+    font-size: .9rem !important;
+}
+
+.message__wrapper {
+    padding: 10px 0px;
+    width: 100%;
+    height: max-content;
+}
+
+.message__author {
+    display: flex;
+    align-items: center;
+    height: max-content;
+    padding: 10px;
+    text-align: left;
+}
+
+.message__author-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    font-size: .8rem;
+
+}
+
+.author-name {
+    font-weight: bold;
+}
+
+.message__text {
+    font-size: .7rem;
+    text-align: left;
+}
+
+.author-lastActiveTime {
+    color: #777;
+}
